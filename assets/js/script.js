@@ -20,13 +20,13 @@ form.addEventListener("submit", (event) => {
 
     resetClass(resultImc, ["red", "green", "yellow", "white"]);
 
-     if (imc >= 18.5 && imc <= 24.9) {
+     if (imc >= 18.5 && imc <= 24.99) {
         addClassMessage("green", "Você está no peso ideal!", imc);
 
-    } else if (imc >= 25 && imc <= 29.9) {
+    } else if (imc >= 25 && imc <= 29.99) {
         addClassMessage("yellow", "SOBREPESO", imc)
 
-    } else if (imc >= 30 && imc <= 39.9) {
+    } else if (imc >= 30 && imc <= 39.99) {
         addClassMessage("red", "OBESIDADE", imc)
 
     } else if (imc >= 40) {
