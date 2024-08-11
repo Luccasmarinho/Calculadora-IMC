@@ -97,7 +97,7 @@ label {
 i {
     position: absolute;
     left: 4px;
-    bottom: 14px;
+    bottom: 13px;
     color: #3EA6FF;
 }
 
@@ -162,4 +162,14 @@ i {
     color: white;
 }
 
+@media screen and (max-width: 500px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
 
