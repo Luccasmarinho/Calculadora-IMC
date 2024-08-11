@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18181B;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 380px;
+    width: 350px;
+    padding: 30px;
+    background-color: #262626;
+    box-shadow: 10px 10px 18px 2px;
+    border-radius: 8px;
+}
+
+
+.container-text {
+    width: 100%;
+    position: relative;
+}
+
+.container-text h3 {
+    font-size: 25px;
+    color: white;
+}
+
+.container-text::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #3EA6FF;
+    bottom: 5px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 22px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+label {
+    color: white;
+    font-size: 15px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+.btn-calculate {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #3EA6FF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    transition: .5s;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+
+.btn-calculate:hover {
+    background-color: #2e71ab;
+}
+
+i {
+    position: absolute;
+    left: 4px;
+    bottom: 14px;
+    color: #3EA6FF;
+}
+
+.hidden {
+    /* width: 100%; */
+    display: none;
+}
+
+.content-hidden-imc {
+    margin-top: 8px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    border-top: 1px solid #ffffff65;
+    border-bottom: 1px solid #ffffff65;
+
+}
+
+#imc, 
+.result-imc {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content-hidden-msg span {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #3EA6FF;
+    font-size: 10px;
+    transition: .4s;
+}
+
+.footer a:hover {
+    color: #2e71ab;
+}
+
+.green {
+    color: #01BB4C;
+}
+
+.red {
+    color: #D60117;
+}
+
+.yellow {
+    color: #FFD302;
+}
+
+.white {
+    color: white;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora-IMC</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div class="container-text">
+                <h3 class="text-title">Calculadora - IMC</h/3>
+            </div> 
+            <form action="#">
+                <div class="input-area">
+                    <label for="input-weight">
+                        Peso
+                    </label>
+                    <div class="input-field">
+                        <input type="text" name="weight" id="input-weight" required placeholder="Kg">
+                        <i class="fa-solid fa-weight-hanging"></i>
+                    </div>
+                </div>
+                <div class="input-area">
+                    <label for="input-height">
+                        Altura
+                    </label>
+                    <div class="input-field">
+                        <input type="text" name="height" id="input-height" required placeholder="m">
+                        <i class="fa-solid fa-weight-hanging"></i>
+                    </div>
+                </div>
+                <button class="btn-calculate">Calcular</button>
+            </form>
+            <section class="hidden" id="hidden">
+                <div class="content-hidden-imc">
+                    <div>
+                        <span id="imc">Seu IMC:</span>
+                        <span class="result-imc"></span>
+                    </div>
+                    <div class="content-hidden-msg">
+                        <span class="result-msg"></span>
+                    </div>
+                </div>
+                <section class="footer">
+                    <a href="https://www.tuasaude.com/imc/" target="_blank">Para mais informações</a>
+                </section>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
