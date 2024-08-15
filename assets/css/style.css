@@ -94,7 +94,7 @@ label {
     background-color: #2e71ab;
 }
 
-i {
+#icons-input {
     position: absolute;
     left: 4px;
     bottom: 13px;
@@ -132,7 +132,6 @@ i {
 .footer {
     width: 100%;
     text-align: center;
-
 }
 
 .footer a {
